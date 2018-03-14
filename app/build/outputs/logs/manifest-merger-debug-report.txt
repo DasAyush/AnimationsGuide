@@ -1,0 +1,274 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-dynamic-animation:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.1.0.aar/bec4703b311e648f0a8bf044508111d3/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /home/ayush/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.10.1.aar/a0ccd07d69bb932be1b5245005472023/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.clans:fab:1.6.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/fab-1.6.2.aar/c55075bbc990289d1c89aa6cf1f68ad7/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c13703c04c2da05a21fd6daa537303b1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/8bbd362af26d1bddef20fc36f384504e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v13:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b1cfd17c8529a2491e890d603ebf97c3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/3390ff8377c03c73b8e76b15b0aecf98/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bdd81b7089e5db54b2378eb59d7c9d79/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c97b15bb61ffb7a4109afc15c7a53e1b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/76a805e2d597da56115aaf7ea6184f54/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c0f4fdd481900232788fea36ad203511/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/fd90e4e4ebabfdaf78416801fb639b6e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f75337e7570cf7901502c0cd020a8763/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/eedd32c3d1cab7fdc37a281bfe7b91fa/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
+	package
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:17:5-49
+		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:19:5-30
+		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:11-69
+	android:versionCode
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:18:5-28
+		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:29:5-101:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-dynamic-animation:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.1.0.aar/bec4703b311e648f0a8bf044508111d3/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-dynamic-animation:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.1.0.aar/bec4703b311e648f0a8bf044508111d3/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /home/ayush/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.10.1.aar/a0ccd07d69bb932be1b5245005472023/AndroidManifest.xml:12:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /home/ayush/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.10.1.aar/a0ccd07d69bb932be1b5245005472023/AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/fab-1.6.2.aar/c55075bbc990289d1c89aa6cf1f68ad7/AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/fab-1.6.2.aar/c55075bbc990289d1c89aa6cf1f68ad7/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c13703c04c2da05a21fd6daa537303b1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c13703c04c2da05a21fd6daa537303b1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/8bbd362af26d1bddef20fc36f384504e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/8bbd362af26d1bddef20fc36f384504e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v13:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b1cfd17c8529a2491e890d603ebf97c3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v13:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b1cfd17c8529a2491e890d603ebf97c3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/3390ff8377c03c73b8e76b15b0aecf98/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/3390ff8377c03c73b8e76b15b0aecf98/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bdd81b7089e5db54b2378eb59d7c9d79/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bdd81b7089e5db54b2378eb59d7c9d79/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c97b15bb61ffb7a4109afc15c7a53e1b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c97b15bb61ffb7a4109afc15c7a53e1b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/76a805e2d597da56115aaf7ea6184f54/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/76a805e2d597da56115aaf7ea6184f54/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c0f4fdd481900232788fea36ad203511/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c0f4fdd481900232788fea36ad203511/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/fd90e4e4ebabfdaf78416801fb639b6e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/fd90e4e4ebabfdaf78416801fb639b6e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f75337e7570cf7901502c0cd020a8763/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f75337e7570cf7901502c0cd020a8763/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/eedd32c3d1cab7fdc37a281bfe7b91fa/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/eedd32c3d1cab7fdc37a281bfe7b91fa/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:32:9-41
+	android:icon
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:31:9-45
+	android:allowBackup
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:30:9-35
+	android:theme
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:33:9-40
+activity#com.example.android.animationsdemo.MainActivity
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:34:9-47:20
+	android:label
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:36:13-45
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:35:13-41
+intent-filter#android.intent.action.MAIN+android.intent.action.SEARCH+android.intent.category.LAUNCHER
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:37:13-42:29
+action#android.intent.action.MAIN
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:38:25-66
+action#android.intent.action.SEARCH
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:39:17-71
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:39:25-68
+category#android.intent.category.LAUNCHER
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:41:27-74
+meta-data#android.app.searchable
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:44:13-46:57
+	android:resource
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:46:17-54
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:45:17-54
+activity#com.example.android.animationsdemo.CrossfadeActivity
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:48:9-55:20
+	android:parentActivityName
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:51:13-55
+	android:label
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:50:13-52
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:49:13-46
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:52:13-54:49
+	android:value
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:54:17-46
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:53:17-63
+activity#com.example.android.animationsdemo.CardFlipActivity
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:56:9-64:20
+	android:parentActivityName
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:59:13-55
+	android:label
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:58:13-52
+	android:theme
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:60:13-44
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:57:13-45
+activity#com.example.android.animationsdemo.ScreenSlideActivity
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:65:9-72:20
+	android:parentActivityName
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:68:13-55
+	android:label
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:67:13-55
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:66:13-48
+activity#com.example.android.animationsdemo.ZoomActivity
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:73:9-81:20
+	android:parentActivityName
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:76:13-55
+	android:label
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:75:13-47
+	android:theme
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:77:13-44
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:74:13-41
+activity#com.example.android.animationsdemo.LayoutChangesActivity
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:82:9-90:20
+	android:parentActivityName
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:85:13-55
+	android:label
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:84:13-57
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:83:13-50
+activity#com.example.android.animationsdemo.ScrollingActivity
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:91:9-93:64
+	android:label
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:93:13-61
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:92:13-46
+activity#com.example.android.animationsdemo.TransparentActivity
+ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:95:9-100:20
+	android:parentActivityName
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:98:13-55
+	android:theme
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:97:13-51
+	android:name
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:96:13-48
+uses-sdk
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:support-dynamic-animation:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.1.0.aar/bec4703b311e648f0a8bf044508111d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-dynamic-animation:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.1.0.aar/bec4703b311e648f0a8bf044508111d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/AndroidManifest.xml:21:5-23:78
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /home/ayush/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.10.1.aar/a0ccd07d69bb932be1b5245005472023/AndroidManifest.xml:8:5-10:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /home/ayush/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.10.1.aar/a0ccd07d69bb932be1b5245005472023/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/fab-1.6.2.aar/c55075bbc990289d1c89aa6cf1f68ad7/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/fab-1.6.2.aar/c55075bbc990289d1c89aa6cf1f68ad7/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c13703c04c2da05a21fd6daa537303b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c13703c04c2da05a21fd6daa537303b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/8bbd362af26d1bddef20fc36f384504e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/8bbd362af26d1bddef20fc36f384504e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b1cfd17c8529a2491e890d603ebf97c3/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b1cfd17c8529a2491e890d603ebf97c3/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:transition:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/3390ff8377c03c73b8e76b15b0aecf98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/3390ff8377c03c73b8e76b15b0aecf98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bdd81b7089e5db54b2378eb59d7c9d79/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bdd81b7089e5db54b2378eb59d7c9d79/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c97b15bb61ffb7a4109afc15c7a53e1b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c97b15bb61ffb7a4109afc15c7a53e1b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/76a805e2d597da56115aaf7ea6184f54/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/76a805e2d597da56115aaf7ea6184f54/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c0f4fdd481900232788fea36ad203511/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c0f4fdd481900232788fea36ad203511/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/fd90e4e4ebabfdaf78416801fb639b6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/fd90e4e4ebabfdaf78416801fb639b6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f75337e7570cf7901502c0cd020a8763/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f75337e7570cf7901502c0cd020a8763/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/eedd32c3d1cab7fdc37a281bfe7b91fa/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/eedd32c3d1cab7fdc37a281bfe7b91fa/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-dynamic-animation:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.1.0.aar/bec4703b311e648f0a8bf044508111d3/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-dynamic-animation:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.1.0.aar/bec4703b311e648f0a8bf044508111d3/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c13703c04c2da05a21fd6daa537303b1/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c13703c04c2da05a21fd6daa537303b1/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/8bbd362af26d1bddef20fc36f384504e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/8bbd362af26d1bddef20fc36f384504e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v13:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b1cfd17c8529a2491e890d603ebf97c3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b1cfd17c8529a2491e890d603ebf97c3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/3390ff8377c03c73b8e76b15b0aecf98/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/3390ff8377c03c73b8e76b15b0aecf98/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bdd81b7089e5db54b2378eb59d7c9d79/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bdd81b7089e5db54b2378eb59d7c9d79/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c97b15bb61ffb7a4109afc15c7a53e1b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c97b15bb61ffb7a4109afc15c7a53e1b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/76a805e2d597da56115aaf7ea6184f54/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/76a805e2d597da56115aaf7ea6184f54/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c0f4fdd481900232788fea36ad203511/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c0f4fdd481900232788fea36ad203511/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/fd90e4e4ebabfdaf78416801fb639b6e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/fd90e4e4ebabfdaf78416801fb639b6e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f75337e7570cf7901502c0cd020a8763/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f75337e7570cf7901502c0cd020a8763/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/eedd32c3d1cab7fdc37a281bfe7b91fa/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/eedd32c3d1cab7fdc37a281bfe7b91fa/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:26:13-58

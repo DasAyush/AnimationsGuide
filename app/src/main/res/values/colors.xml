@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#29B6F6</color>
+    <color name="colorAccent">#546E7A</color>
+    <color name="recView2Item">#03A9F4</color>
+    <color name="viewDivider">#8BC34A</color>
+    <color name="rippleBackgroundSubject">#0288D1</color>
+    <color name="floatingMenuBg">#546E7A</color>
+    <color name="screenSlide">#81D4FA</color>
+    <color name="zoomScreen">#81D4FA</color>
+    <color name="rippleBackgroundGrid">#B39DDB</color>
+    <color name="bg_row_background">#fa315b</color>
+
+</resources>
