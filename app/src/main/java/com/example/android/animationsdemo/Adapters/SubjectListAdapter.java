@@ -76,14 +76,14 @@ public class SubjectListAdapter extends RecyclerView.Adapter<SubjectListAdapter.
         Subject currentSubject = subjects.get(position);
         holder.tvCourseCode.setText(currentSubject.getTvCourseCode());
         holder.tvCourseName.setText(currentSubject.getTvCourseName());
+        //holder.tvCourseName.setTextColor(Color.GRAY);
+
         if(position%2 == 1){
             holder.itemView.setBackgroundColor(mContext.getResources().getColor(R.color.recView2Item));
-            holder.tvCourseName.setTextColor(Color.WHITE);
         }
 
         else{
             holder.itemView.setBackgroundColor(Color.WHITE);
-            holder.tvCourseName.setTextColor(Color.GRAY);
         }
     }
 

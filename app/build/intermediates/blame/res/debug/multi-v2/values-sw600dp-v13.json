@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ayush/Desktop/AnimationsDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/res/values-sw600dp-v13/values-sw600dp-v13.xml",

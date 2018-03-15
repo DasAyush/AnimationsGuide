@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ayush/Desktop/AnimationsDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/8bbd362af26d1bddef20fc36f384504e/res/values-v23/values-v23.xml",

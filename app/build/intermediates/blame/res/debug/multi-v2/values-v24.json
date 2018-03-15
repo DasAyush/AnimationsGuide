@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ayush/Desktop/AnimationsDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/eedd32c3d1cab7fdc37a281bfe7b91fa/res/values-v24/values-v24.xml",

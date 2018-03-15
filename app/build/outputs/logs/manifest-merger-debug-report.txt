@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-dynamic-animation:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.1.0.aar/bec4703b311e648f0a8bf044508111d3/AndroidManifest.xml:17:1-28:12
@@ -23,25 +23,25 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /home/ayush/.gradle/cac
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/eedd32c3d1cab7fdc37a281bfe7b91fa/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
 	package
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:17:5-49
-		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:17:5-49
+		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:19:5-30
-		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:19:5-30
+		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:16:11-69
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:11-69
 	android:versionCode
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:18:5-28
-		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:18:5-28
+		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:29:5-101:19
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:29:5-101:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:25:5-29:19
@@ -81,107 +81,107 @@ MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/cach
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:32:9-41
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:32:9-41
 	android:icon
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:31:9-45
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:31:9-45
 	android:allowBackup
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:30:9-35
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:30:9-35
 	android:theme
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:33:9-40
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:33:9-40
 activity#com.example.android.animationsdemo.MainActivity
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:34:9-47:20
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:34:9-47:20
 	android:label
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:36:13-45
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:36:13-45
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:35:13-41
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:35:13-41
 intent-filter#android.intent.action.MAIN+android.intent.action.SEARCH+android.intent.category.LAUNCHER
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:37:13-42:29
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:37:13-42:29
 action#android.intent.action.MAIN
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:38:17-69
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:38:25-66
 action#android.intent.action.SEARCH
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:39:17-71
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:39:17-71
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:39:25-68
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:39:25-68
 category#android.intent.category.LAUNCHER
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:41:17-77
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:41:27-74
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:41:27-74
 meta-data#android.app.searchable
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:44:13-46:57
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:44:13-46:57
 	android:resource
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:46:17-54
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:46:17-54
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:45:17-54
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:45:17-54
 activity#com.example.android.animationsdemo.CrossfadeActivity
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:48:9-55:20
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:48:9-55:20
 	android:parentActivityName
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:51:13-55
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:51:13-55
 	android:label
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:50:13-52
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:50:13-52
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:49:13-46
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:49:13-46
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:52:13-54:49
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:52:13-54:49
 	android:value
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:54:17-46
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:54:17-46
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:53:17-63
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:53:17-63
 activity#com.example.android.animationsdemo.CardFlipActivity
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:56:9-64:20
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:56:9-64:20
 	android:parentActivityName
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:59:13-55
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:59:13-55
 	android:label
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:58:13-52
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:58:13-52
 	android:theme
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:60:13-44
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:60:13-44
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:57:13-45
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:57:13-45
 activity#com.example.android.animationsdemo.ScreenSlideActivity
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:65:9-72:20
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:65:9-72:20
 	android:parentActivityName
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:68:13-55
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:68:13-55
 	android:label
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:67:13-55
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:67:13-55
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:66:13-48
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:66:13-48
 activity#com.example.android.animationsdemo.ZoomActivity
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:73:9-81:20
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:73:9-81:20
 	android:parentActivityName
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:76:13-55
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:76:13-55
 	android:label
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:75:13-47
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:75:13-47
 	android:theme
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:77:13-44
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:77:13-44
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:74:13-41
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:74:13-41
 activity#com.example.android.animationsdemo.LayoutChangesActivity
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:82:9-90:20
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:82:9-90:20
 	android:parentActivityName
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:85:13-55
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:85:13-55
 	android:label
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:84:13-57
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:84:13-57
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:83:13-50
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:83:13-50
 activity#com.example.android.animationsdemo.ScrollingActivity
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:91:9-93:64
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:91:9-93:64
 	android:label
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:93:13-61
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:93:13-61
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:92:13-46
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:92:13-46
 activity#com.example.android.animationsdemo.TransparentActivity
-ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:95:9-100:20
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:95:9-100:20
 	android:parentActivityName
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:98:13-55
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:98:13-55
 	android:theme
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:97:13-51
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:97:13-51
 	android:name
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml:96:13-48
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:96:13-48
 uses-sdk
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:21:5-23:62
@@ -220,18 +220,18 @@ MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/cach
 MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
-INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
-		ADDED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ayush/Desktop/AnimationsDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-dynamic-animation:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.1.0.aar/bec4703b311e648f0a8bf044508111d3/AndroidManifest.xml:23:9-25:38

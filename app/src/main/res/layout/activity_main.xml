@@ -7,7 +7,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.android.animationsdemo.MainActivity"
     android:id="@+id/coordinator"
-    android:background="#ECEFF1"
+    android:background="@android:color/white"
     android:fitsSystemWindows="true">
 
     <android.support.design.widget.AppBarLayout
@@ -30,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:id="@+id/toolbar"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorPrimary2"
                 app:popupTheme="
                 @style/AppTheme.AppBarOverlay">
 
@@ -39,7 +39,7 @@
                     android:layout_height="35dp"
                     android:layout_width="match_parent"
                     android:layout_marginRight="17dp"
-                    android:elevation="7dp"
+                    android:elevation="0dp"
                     android:autofillHints="Nothing"
                     />
 
@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/tvMixedSamples"
                 android:text="Mixed Samples"
-                android:textColor="#4CAF50"
+                android:textColor="#00ACC1"
                 android:textStyle="bold"
                 android:textSize="18dp"
                 android:layout_margin="5dp"
@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:text="Further Fakers"
                 android:id="@+id/tvFurtherFakers"
-                android:textColor="#4CAF50"
+                android:textColor="#00ACC1"
                 android:textStyle="bold"
                 android:textSize="18dp"
                 android:layout_margin="5dp"/>
