@@ -5,14 +5,19 @@ package com.example.android.animationsdemo.Adapters;
  */
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CompoundButton;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 import com.example.android.animationsdemo.Objects.CLickListener;
 import com.example.android.animationsdemo.Objects.Subject;
@@ -36,6 +41,7 @@ public class SubjectListAdapter extends RecyclerView.Adapter<SubjectListAdapter.
 
         public TextView tvCourseCode;
         public TextView tvCourseName;
+        public ToggleButton ibFavourite;
         public RelativeLayout viewBackground;
         public LinearLayout viewForeground;
         //public TextView tvCourseAttendance;
@@ -47,6 +53,7 @@ public class SubjectListAdapter extends RecyclerView.Adapter<SubjectListAdapter.
             tvCourseName = (TextView)itemView.findViewById(R.id.tvCourseName);
             viewBackground = (RelativeLayout)itemView.findViewById(R.id.view_background);
             viewForeground = (LinearLayout)itemView.findViewById(R.id.view_foreground);
+            ibFavourite = (ToggleButton) itemView.findViewById(R.id.ibFavourite);
 
         }
 
@@ -72,7 +79,7 @@ public class SubjectListAdapter extends RecyclerView.Adapter<SubjectListAdapter.
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(final ViewHolder holder, int position) {
         Subject currentSubject = subjects.get(position);
         holder.tvCourseCode.setText(currentSubject.getTvCourseCode());
         holder.tvCourseName.setText(currentSubject.getTvCourseName());
@@ -85,7 +92,46 @@ public class SubjectListAdapter extends RecyclerView.Adapter<SubjectListAdapter.
         else{
             holder.itemView.setBackgroundColor(Color.WHITE);
         }
+
+        //holder.ibFavourite = (ToggleButton) findViewById(R.id.ibFavourite);
+        holder.ibFavourite.setChecked(false);
+        holder.ibFavourite.setBackgroundDrawable(ContextCompat.getDrawable
+                (mContext, R.mipmap.ic_not_favourite));
+        holder.ibFavourite.setText(null);
+        holder.ibFavourite.setTextOn(null);
+        holder.ibFavourite.setTextOff(null);
+
+        holder.ibFavourite.setOnCheckedChangeListener(
+                new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked)
+                    holder.ibFavourite.setBackgroundDrawable(ContextCompat.getDrawable
+                            (mContext,R.mipmap.ic_favourite));
+                else
+                    holder.ibFavourite.setBackgroundDrawable(ContextCompat.getDrawable
+                            (mContext, R.mipmap.ic_not_favourite));
+            }
+        });
     }
+
+    /*
+    private void saveState(boolean isFavourite) {
+        SharedPreferences aSharedPreferences = this.getSharedPreferences(
+                "Favourite", Context.MODE_PRIVATE);
+        SharedPreferences.Editor aSharedPreferencesEdit = aSharedPreferences
+                .edit();
+        aSharedPreferencesEdit.putBoolean("State", isFavourite);
+        aSharedPreferencesEdit.commit();
+    }
+
+    private boolean readState() {
+        SharedPreferences aSharedPreferences = this.getSharedPreferences(
+                "Favourite", Context.MODE_PRIVATE);
+        return aSharedPreferences.getBoolean("State", true);
+    }
+    */
+
 
     @Override
     public int getItemCount() {

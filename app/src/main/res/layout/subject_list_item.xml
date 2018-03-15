@@ -81,6 +81,17 @@
                 android:layout_weight="0.755"
                 />
 
+            <ToggleButton
+                android:id="@+id/ibFavourite"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:src="@android:drawable/btn_star"
+                android:background="#00ffffff"
+                android:elevation="0dp"
+                />
+
         </LinearLayout>
 
 
