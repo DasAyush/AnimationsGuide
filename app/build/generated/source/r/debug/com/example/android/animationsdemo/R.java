@@ -4459,13 +4459,18 @@ public final class R {
     public static final int menu_scrolling=0x7f0b0003;
   }
   public static final class mipmap {
-    public static final int ic_del=0x7f0c0000;
-    public static final int ic_del_round=0x7f0c0001;
-    public static final int ic_delete=0x7f0c0002;
-    public static final int ic_delete_foreground=0x7f0c0003;
-    public static final int ic_delete_round=0x7f0c0004;
-    public static final int ic_deletes=0x7f0c0005;
-    public static final int ic_launcher_foreground=0x7f0c0006;
+    public static final int flipping=0x7f0c0000;
+    public static final int grids=0x7f0c0001;
+    public static final int ic_del=0x7f0c0002;
+    public static final int ic_del_round=0x7f0c0003;
+    public static final int ic_delete=0x7f0c0004;
+    public static final int ic_delete_foreground=0x7f0c0005;
+    public static final int ic_delete_round=0x7f0c0006;
+    public static final int ic_deletes=0x7f0c0007;
+    public static final int ic_launcher_foreground=0x7f0c0008;
+    public static final int scrolling=0x7f0c0009;
+    public static final int sliding=0x7f0c000a;
+    public static final int zooming=0x7f0c000b;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0d0000;

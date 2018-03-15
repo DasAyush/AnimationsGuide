@@ -28,6 +28,10 @@
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/mipmap-mdpi_flipping.png.flat",
+        "source": "/home/ayush/Documents/AnimationsGuide/app/src/main/res/mipmap-mdpi/flipping.png"
+    },
+    {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
@@ -1536,6 +1540,10 @@
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable/abc_ratingbar_material.xml"
     },
     {
+        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/mipmap-mdpi_scrolling.png.flat",
+        "source": "/home/ayush/Documents/AnimationsGuide/app/src/main/res/mipmap-mdpi/scrolling.png"
+    },
+    {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
@@ -1698,6 +1706,10 @@
     {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/mipmap-mdpi_sliding.png.flat",
+        "source": "/home/ayush/Documents/AnimationsGuide/app/src/main/res/mipmap-mdpi/sliding.png"
     },
     {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -1984,6 +1996,10 @@
         "source": "/home/ayush/Documents/AnimationsGuide/app/src/main/res/drawable-nodpi/thumb2.png"
     },
     {
+        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/mipmap-mdpi_zooming.png.flat",
+        "source": "/home/ayush/Documents/AnimationsGuide/app/src/main/res/mipmap-mdpi/zooming.png"
+    },
+    {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
     },
@@ -2102,6 +2118,10 @@
     {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/home/ayush/Documents/AnimationsGuide/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/mipmap-mdpi_grids.png.flat",
+        "source": "/home/ayush/Documents/AnimationsGuide/app/src/main/res/mipmap-mdpi/grids.png"
     },
     {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_delete_foreground.png.flat",

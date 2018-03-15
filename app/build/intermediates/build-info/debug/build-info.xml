@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1521109121385"
+    timestamp="1521111076888"
     token="-4870449666281602166"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -70,7 +70,16 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1521109121385"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1521111014168"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1521111076888"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/ayush/Documents/AnimationsGuide/app/build/outputs/apk/debug/app-debug.apk"

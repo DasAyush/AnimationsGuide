@@ -370,11 +370,11 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
     public void AddItemsToRecyclerViewArrayList1(){
 
         icons = new ArrayList<MainRecView>();
-        icons.add(new MainRecView(R.drawable.ic_launcher));
-        icons.add(new MainRecView(R.drawable.thumb2));
-        icons.add(new MainRecView(R.drawable.thumb1));
-        icons.add(new MainRecView(R.drawable.ic_add_black_24dp));
-        icons.add(new MainRecView(R.drawable.ic_list_remove));
+        icons.add(new MainRecView(R.mipmap.scrolling));
+        icons.add(new MainRecView(R.mipmap.flipping));
+        icons.add(new MainRecView(R.mipmap.sliding));
+        icons.add(new MainRecView(R.mipmap.zooming));
+        icons.add(new MainRecView(R.mipmap.grids));
     }
 
     // function to add items in RecyclerView 2
