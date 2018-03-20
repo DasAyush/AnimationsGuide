@@ -45,7 +45,7 @@
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:weightSum="1"
-        android:background="#FFCC80"
+        android:background="@color/bg_row_foreground"
         android:transitionName="@string/transition">
 
             <TextView
@@ -54,22 +54,26 @@
                 android:layout_height="50dp"
                 android:layout_weight="0.25"
                 android:text="CS-309"
-                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
                 android:textStyle="bold"
                 android:gravity="center"
-                android:layout_gravity="center" />
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"/>
 
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
                 android:background="@color/viewDivider"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                />
 
             <TextView
                 android:id="@+id/tvCourseName"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textSize="15dp"
+                android:textColor="@android:color/white"
                 android:layout_marginTop="3dp"
                 android:layout_marginBottom="3dp"
                 android:layout_width="0dp"
@@ -78,8 +82,14 @@
                 android:layout_height="match_parent"
                 android:textStyle="bold"
                 android:text="Something"
-                android:layout_weight="0.755"
+                android:layout_weight="0.70"
                 />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/viewDivider"
+                android:layout_marginRight="10dp"/>
 
             <ToggleButton
                 android:id="@+id/ibFavourite"
@@ -90,6 +100,7 @@
                 android:src="@android:drawable/btn_star"
                 android:background="#00ffffff"
                 android:elevation="0dp"
+                android:layout_marginLeft="10dp"
                 />
 
         </LinearLayout>

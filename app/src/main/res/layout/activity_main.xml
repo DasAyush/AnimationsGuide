@@ -7,7 +7,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.android.animationsdemo.MainActivity"
     android:id="@+id/coordinator"
-    android:background="@android:color/white"
+    android:background="@color/main_bg"
     android:fitsSystemWindows="true">
 
     <android.support.design.widget.AppBarLayout
@@ -67,7 +67,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/tvMixedSamples"
                 android:text="Mixed Samples"
-                android:textColor="#00ACC1"
+                android:textColor=
+                    "@color/text_between_recycler_views"
                 android:textStyle="bold"
                 android:textSize="18dp"
                 android:layout_margin="5dp"
@@ -84,9 +85,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Further Fakers"
+                android:text="Standard Animations"
                 android:id="@+id/tvFurtherFakers"
-                android:textColor="#00ACC1"
+                android:textColor=
+                    "@color/text_between_recycler_views"
                 android:textStyle="bold"
                 android:textSize="18dp"
                 android:layout_margin="5dp"/>
@@ -140,8 +142,8 @@
         fab:menu_animationDelayPerItem="55"
         fab:menu_backgroundColor="@android:color/transparent"
         fab:menu_buttonSpacing="0dp"
-        fab:menu_colorNormal="#536DFE"
-        fab:menu_colorPressed="#7986CB"
+        fab:menu_colorNormal="#E53935"
+        fab:menu_colorPressed="#B71C1C"
         fab:menu_colorRipple="#99d4d4d4"
         fab:menu_fab_label="Floating Action Menu"
         fab:menu_fab_size="normal"
