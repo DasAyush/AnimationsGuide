@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1521579573485"
+    timestamp="1522394518604"
     token="-4870449666281602166"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,14 +29,14 @@
 
     <build
         build-mode="FULL"
-        timestamp="1521578894217"
+        timestamp="1522392235988"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/ayush/Documents/AnimationsGuide/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="/home/ayush/Documents/AnimationsGuide/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
@@ -70,7 +70,16 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1521579573485"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1522394307963"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1522394518604"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/ayush/Documents/AnimationsGuide/app/build/outputs/apk/debug/app-debug.apk"

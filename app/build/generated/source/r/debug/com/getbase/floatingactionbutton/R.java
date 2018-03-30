@@ -26,25 +26,25 @@ public final class R {
         public static final int fab_title = 0x7f0300b4;
     }
     public static final class dimen {
-        public static final int fab_actions_spacing = 0x7f06007a;
-        public static final int fab_icon_size = 0x7f06007b;
-        public static final int fab_labels_margin = 0x7f06007c;
-        public static final int fab_plus_icon_size = 0x7f06007d;
-        public static final int fab_plus_icon_stroke = 0x7f06007e;
-        public static final int fab_shadow_offset = 0x7f06007f;
-        public static final int fab_shadow_radius = 0x7f060080;
-        public static final int fab_size_mini = 0x7f060081;
-        public static final int fab_size_normal = 0x7f060082;
-        public static final int fab_stroke_width = 0x7f060083;
+        public static final int fab_actions_spacing = 0x7f06007b;
+        public static final int fab_icon_size = 0x7f06007c;
+        public static final int fab_labels_margin = 0x7f06007d;
+        public static final int fab_plus_icon_size = 0x7f06007f;
+        public static final int fab_plus_icon_stroke = 0x7f060080;
+        public static final int fab_shadow_offset = 0x7f060081;
+        public static final int fab_shadow_radius = 0x7f060082;
+        public static final int fab_size_mini = 0x7f060083;
+        public static final int fab_size_normal = 0x7f060084;
+        public static final int fab_stroke_width = 0x7f060085;
     }
     public static final class drawable {
         public static final int fab_bg_mini = 0x7f070066;
         public static final int fab_bg_normal = 0x7f070067;
     }
     public static final class id {
-        public static final int down = 0x7f08004a;
-        public static final int fab_expand_menu_button = 0x7f080059;
-        public static final int fab_label = 0x7f08005a;
+        public static final int down = 0x7f08004b;
+        public static final int fab_expand_menu_button = 0x7f08005a;
+        public static final int fab_label = 0x7f08005b;
         public static final int left = 0x7f080070;
         public static final int mini = 0x7f080080;
         public static final int normal = 0x7f080085;

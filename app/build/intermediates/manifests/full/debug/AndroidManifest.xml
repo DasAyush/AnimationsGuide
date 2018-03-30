@@ -101,8 +101,11 @@
         <activity
             android:name="com.example.android.animationsdemo.TransparentActivity"
             android:parentActivityName="com.example.android.animationsdemo.MainActivity"
-            android:theme="@style/Theme.AppCompat" >
-        </activity>
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="com.example.android.animationsdemo.AnimationDetailsActivity"
+            android:label="@string/title_activity_animation_details"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="android.support.VERSION"

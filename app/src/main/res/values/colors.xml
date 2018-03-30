@@ -3,8 +3,8 @@
 
     <color name="colorPrimary">#03A9F4</color>
     <color name="colorPrimaryDark">#29B6F6</color>
-    <color name="colorPrimary2">#F57C00</color>
-    <color name="colorPrimaryDark2">#E65100</color>
+    <color name="colorPrimary2">#F06292</color>
+    <color name="colorPrimaryDark2">#E91E63</color>#E91E63
     <color name="colorAccent">#546E7A</color>
     <color name="recView2Item">#03A9F4</color>
     <color name="viewDivider">#EF5350</color>
@@ -14,8 +14,8 @@
     <color name="zoomScreen">#81D4FA</color>
     <color name="rippleBackgroundGrid">#B39DDB</color>
     <color name="bg_row_background">#03A9F4</color>
-    <color name="bg_row_foreground">#FFA726</color>
-    <color name="main_bg">#FFECB3</color>
-    <color name="text_between_recycler_views">#B71C1C</color>
+    <color name="bg_row_foreground">@android:color/white</color>
+    <color name="main_bg">#FCE4EC</color>
+    <color name="text_between_recycler_views">#AD1457</color>
 
 </resources>

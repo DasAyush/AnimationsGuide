@@ -76,17 +76,17 @@ public final class R {
         public static final int menu_showShadow = 0x7f03014b;
     }
     public static final class dimen {
-        public static final int fab_size_mini = 0x7f060081;
-        public static final int fab_size_normal = 0x7f060082;
-        public static final int labels_text_size = 0x7f060092;
+        public static final int fab_size_mini = 0x7f060083;
+        public static final int fab_size_normal = 0x7f060084;
+        public static final int labels_text_size = 0x7f060094;
     }
     public static final class drawable {
         public static final int fab_add = 0x7f070065;
     }
     public static final class id {
-        public static final int down = 0x7f08004a;
-        public static final int end = 0x7f08004c;
-        public static final int fab_label = 0x7f08005a;
+        public static final int down = 0x7f08004b;
+        public static final int end = 0x7f08004d;
+        public static final int fab_label = 0x7f08005b;
         public static final int left = 0x7f080070;
         public static final int marquee = 0x7f080077;
         public static final int middle = 0x7f08007f;

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
-INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
-INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
-INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-104:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-104:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-104:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-104:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-dynamic-animation:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-dynamic-animation-26.1.0.aar/bec4703b311e648f0a8bf044508111d3/AndroidManifest.xml:17:1-28:12
@@ -23,9 +23,9 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /home/ayush/.gradle/cac
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/eedd32c3d1cab7fdc37a281bfe7b91fa/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/02ac869d9452415f317f20ff7e156fd7/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
-INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
-INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-103:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-104:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-104:12
+INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:16:1-104:12
 	package
 		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:17:5-49
 		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
@@ -41,7 +41,7 @@ INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest
 		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:29:5-101:19
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:29:5-102:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ayush/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1a2a08772f70be138c1ef42d5d01d76/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.1.0] /home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/AndroidManifest.xml:25:5-29:19
@@ -171,13 +171,21 @@ ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xm
 	android:name
 		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:92:13-46
 activity#com.example.android.animationsdemo.TransparentActivity
-ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:95:9-100:20
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:94:9-97:63
 	android:parentActivityName
-		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:98:13-55
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:96:13-55
 	android:theme
 		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:97:13-51
 	android:name
-		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:96:13-48
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:95:13-48
+activity#com.example.android.animationsdemo.AnimationDetailsActivity
+ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:98:9-101:68
+	android:label
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:100:13-69
+	android:theme
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:101:13-56
+	android:name
+		ADDED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml:99:13-53
 uses-sdk
 INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/ayush/Documents/AnimationsGuide/app/src/main/AndroidManifest.xml

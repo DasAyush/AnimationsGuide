@@ -91,13 +91,14 @@
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling" />
-
         <activity
             android:name=".TransparentActivity"
-            android:theme="@style/Theme.AppCompat"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat"></activity>
+        <activity
+            android:name=".AnimationDetailsActivity"
+            android:label="@string/title_activity_animation_details"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

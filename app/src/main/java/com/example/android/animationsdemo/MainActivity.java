@@ -16,6 +16,7 @@
 
 package com.example.android.animationsdemo;
 
+import android.animation.ObjectAnimator;
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
@@ -23,6 +24,8 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
+import android.support.animation.DynamicAnimation;
+import android.support.animation.FlingAnimation;
 import android.support.annotation.Nullable;
 //import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.AppBarLayout;
@@ -47,7 +50,7 @@ import com.example.android.animationsdemo.Objects.MainRecView;
 import com.example.android.animationsdemo.Adapters.MainRecViewAdapter;
 import com.example.android.animationsdemo.Objects.RecyclerItemTouchHelper;
 import com.example.android.animationsdemo.Objects.Subject;
-import com.example.android.animationsdemo.Adapters.SubjectListAdapter;
+import com.example.android.animationsdemo.Adapters.AnimationsListAdapter;
 import com.github.clans.fab.FloatingActionMenu;
 
 import java.util.ArrayList;
@@ -63,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
      * This class describes an individual sample (the sample title, and the activity class that
      * demonstrates this sample).
      */
-    private SubjectListAdapter mAdapter;
+    private AnimationsListAdapter mAdapter;
 
     public ArrayList<Subject> subjects;
 
@@ -143,16 +146,28 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
         recyclerView1.setLayoutManager(horizontalLayoutManager);
         recyclerView1.setAdapter(recyclerViewHorizontalAdapter);
 
-        new CountDownTimer(4000, 50) {
 
-            public void onTick(long millisUntilFinished) {
-                recyclerView1.scrollTo((int) (4000 - millisUntilFinished), 0);
-            }
+        /*FlingAnimation fling = new FlingAnimation(recyclerView1, DynamicAnimation.SCROLL_X);
+        fling.setStartVelocity(-2f)
+                .setMinValue(0f)
+                .setMaxValue(0.5f)
+                .setFriction(1.1f)
+                .start();
+*/
+        //fling.set
 
-            public void onFinish() {
 
-            }
-        }.start();
+/*                new CountDownTimer(4000, 50) {
+
+                    public void onTick(long millisUntilFinished) {
+                        recyclerView1.scrollTo((int) (4000 - millisUntilFinished), 0);
+                    }
+
+                    public void onFinish() {
+
+                    }
+                }.start();
+*/
 
         //Circular horizontal recycler view
         //horizontalLayoutManager.scrollToPosition(Integer.MAX_VALUE/2);
@@ -162,7 +177,7 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
         recyclerView2 = (RecyclerView)findViewById(R.id.recyclerView2);
         recyclerView2.setLayoutManager(recyclerViewLayoutManager);
         recyclerView2.setHasFixedSize(true);
-        mAdapter = new SubjectListAdapter(getBaseContext(), subjects);
+        mAdapter = new AnimationsListAdapter(getBaseContext(), subjects);
         recyclerView2.setAdapter(mAdapter);
         mAdapter.setcLickListener(this);
         recyclerView2.setItemAnimator(new DefaultItemAnimator());
@@ -242,35 +257,6 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
             }
         });
 
-        /*
-        ItemTouchHelper.SimpleCallback itemTouchHelperCallback
-                = new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT
-                                                                    | ItemTouchHelper.RIGHT)
-        {
-            @Override
-            public boolean onMove(RecyclerView recyclerView,
-                                  RecyclerView.ViewHolder viewHolder,
-                                  RecyclerView.ViewHolder target) {
-                return false;
-            }
-
-            @Override
-            public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
-                // Row is swiped from recycler view
-                // remove it from adapter
-            }
-
-            @Override
-            public void onChildDraw(Canvas c, RecyclerView recyclerView,
-                                    RecyclerView.ViewHolder viewHolder, float dX, float dY,
-                                    int actionState, boolean isCurrentlyActive) {
-                // view the background view
-            }
-        };
-
-        // attaching the touch helper to recycler view
-        new ItemTouchHelper(itemTouchHelperCallback).attachToRecyclerView(recyclerView2);
-        */
 
 
         //click on top fab
@@ -320,7 +306,7 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
 
     @Override
     public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction, int position) {
-        if (viewHolder instanceof SubjectListAdapter.ViewHolder) {
+        if (viewHolder instanceof AnimationsListAdapter.ViewHolder) {
             // get the removed item name to display it in snack bar
             String name = subjects.get(viewHolder.getAdapterPosition()).getTvCourseCode();
 
@@ -353,7 +339,17 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
     //move to another activity
     @Override
     public void itemClicked(View view, int position) {
-        Intent intent = new Intent(this,ScrollingActivity.class);
+
+        /**
+         * For view transition from left to right
+         */
+        /*ObjectAnimator animation = ObjectAnimator.ofFloat(view,
+                "translationX", 600f);
+        animation.setDuration(2000);
+        animation.start();
+        */
+
+        Intent intent = new Intent(this,AnimationDetailsActivity.class);
         intent.putExtra("Item position",position);
         String transitionName = getString(R.string.transition);
 
