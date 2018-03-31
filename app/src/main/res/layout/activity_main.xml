@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<android.support.design.widget.CoordinatorLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:fab="http://schemas.android.com/apk/res-auto"
@@ -26,24 +28,6 @@
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-            <android.support.v7.widget.Toolbar
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                android:id="@+id/toolbar"
-                android:background="@color/colorPrimary2"
-                app:popupTheme="
-                @style/AppTheme.AppBarOverlay">
-
-                <android.support.v7.widget.SearchView
-                    android:id="@+id/search_product"
-                    android:layout_height="35dp"
-                    android:layout_width="match_parent"
-                    android:layout_marginRight="17dp"
-                    android:elevation="0dp"
-                    android:autofillHints="Nothing"
-                    />
-
-            </android.support.v7.widget.Toolbar>
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
@@ -54,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clipToPadding="false"
+        android:padding="10dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
@@ -102,7 +87,6 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:transitionName="@string/transition"
                 android:layoutAnimation=
                     "@anim/layout_animation_fall_down"/>
 
@@ -202,3 +186,4 @@
     <!--<include layout="@layout/fab_layout"/>-->
 
 </android.support.design.widget.CoordinatorLayout>
+</layout>

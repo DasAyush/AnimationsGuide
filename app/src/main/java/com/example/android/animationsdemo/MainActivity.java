@@ -16,16 +16,9 @@
 
 package com.example.android.animationsdemo;
 
-import android.animation.ObjectAnimator;
-import android.app.SearchManager;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.CountDownTimer;
-import android.os.Handler;
-import android.support.animation.DynamicAnimation;
-import android.support.animation.FlingAnimation;
 import android.support.annotation.Nullable;
 //import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.AppBarLayout;
@@ -39,17 +32,19 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.GestureDetector;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.AutoCompleteTextView;
-import android.support.v7.widget.SearchView;
-import android.widget.LinearLayout;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 import com.example.android.animationsdemo.Objects.CLickListener;
 import com.example.android.animationsdemo.Objects.MainRecView;
 import com.example.android.animationsdemo.Adapters.MainRecViewAdapter;
 import com.example.android.animationsdemo.Objects.RecyclerItemTouchHelper;
-import com.example.android.animationsdemo.Objects.Subject;
+import com.example.android.animationsdemo.Objects.Animation;
 import com.example.android.animationsdemo.Adapters.AnimationsListAdapter;
 import com.github.clans.fab.FloatingActionMenu;
 
@@ -66,9 +61,27 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
      * This class describes an individual sample (the sample title, and the activity class that
      * demonstrates this sample).
      */
-    private AnimationsListAdapter mAdapter;
 
-    public ArrayList<Subject> subjects;
+    // CONSTANTS
+    private static final String TAG = "SearchActivity";
+    public static final int VOICE_RECOGNITION_CODE = 1;
+
+    // UI ELEMENTS
+    private RecyclerView searchResultList;
+    private EditText searchInput;
+    private RelativeLayout voiceInput;
+    private RelativeLayout dismissDialog;
+    private ImageView micIcon;
+
+    private String query;
+    private String providerName;
+    private String providerAuthority;
+    private String searchableActivity;
+    private Boolean isRecentSuggestionsProvider = Boolean.TRUE;
+
+
+    private AnimationsListAdapter mAdapter;
+    public ArrayList<Animation> animations;
 
     NestedScrollView nestedScrollView;
 
@@ -93,13 +106,17 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
+
         //Search for the animations
-        final SearchView searchView = (SearchView) findViewById(R.id.search_product);
+        /*final SearchView searchView = (SearchView) findViewById(R.id.search_product);
         SearchManager searchManager = (SearchManager)getSystemService(Context.SEARCH_SERVICE);
         searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
         searchView.setQueryHint("Search for the animations");
         searchView.setBackgroundColor(Color.WHITE);
         searchView.onActionViewExpanded();
+
         new Handler().postDelayed(new Runnable()
         {
             @Override
@@ -107,11 +124,13 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
                 searchView.clearFocus();
             }
         }, 300);
+        */
+
         //searchView.setIconified(true);
         //searchView.setIconifiedByDefault(true);
 
         //Setting the size of the text in the searchview
-        LinearLayout linearLayout1 = (LinearLayout)searchView.getChildAt(0);
+        /*LinearLayout linearLayout1 = (LinearLayout)searchView.getChildAt(0);
         LinearLayout linearLayout2 = (LinearLayout)linearLayout1.getChildAt(2);
         LinearLayout linearLayout3 = (LinearLayout)linearLayout2.getChildAt(1);
         AutoCompleteTextView autoCompleteTextView =
@@ -129,6 +148,7 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
                 return false;
             }
         });
+        */
 
         coordinatorLayout = (CoordinatorLayout)findViewById(R.id.coordinator);
         //Setting up the recycler view 1
@@ -153,21 +173,7 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
                 .setMaxValue(0.5f)
                 .setFriction(1.1f)
                 .start();
-*/
-        //fling.set
-
-
-/*                new CountDownTimer(4000, 50) {
-
-                    public void onTick(long millisUntilFinished) {
-                        recyclerView1.scrollTo((int) (4000 - millisUntilFinished), 0);
-                    }
-
-                    public void onFinish() {
-
-                    }
-                }.start();
-*/
+        */
 
         //Circular horizontal recycler view
         //horizontalLayoutManager.scrollToPosition(Integer.MAX_VALUE/2);
@@ -177,7 +183,7 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
         recyclerView2 = (RecyclerView)findViewById(R.id.recyclerView2);
         recyclerView2.setLayoutManager(recyclerViewLayoutManager);
         recyclerView2.setHasFixedSize(true);
-        mAdapter = new AnimationsListAdapter(getBaseContext(), subjects);
+        mAdapter = new AnimationsListAdapter(getBaseContext(), animations);
         recyclerView2.setAdapter(mAdapter);
         mAdapter.setcLickListener(this);
         recyclerView2.setItemAnimator(new DefaultItemAnimator());
@@ -308,10 +314,10 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
     public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction, int position) {
         if (viewHolder instanceof AnimationsListAdapter.ViewHolder) {
             // get the removed item name to display it in snack bar
-            String name = subjects.get(viewHolder.getAdapterPosition()).getTvCourseCode();
+            String name = animations.get(viewHolder.getAdapterPosition()).getTvCourseCode();
 
             // backup of removed item for undo purpose
-            final Subject deletedSubject = subjects.get(viewHolder.getAdapterPosition());
+            final Animation deletedAnimation = animations.get(viewHolder.getAdapterPosition());
             final int deletedIndex = viewHolder.getAdapterPosition();
 
             // remove the item from recycler view
@@ -325,7 +331,7 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
                 public void onClick(View view) {
 
                     // undo is selected, restore the deleted item
-                    mAdapter.restoreSubject(deletedSubject, deletedIndex);
+                    mAdapter.restoreSubject(deletedAnimation, deletedIndex);
                     floatingActionMenu.showMenu(true);
                 }
             });
@@ -376,28 +382,43 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
     // function to add items in RecyclerView 2
     public void AddSubjectsToRecyclerViewArrayList2() {
 
-        subjects = new ArrayList<Subject>();
-        subjects.add(new Subject("IT-302","Move a View with Animation"));
+        animations = new ArrayList<Animation>();
+        animations.add(new Animation("IT-302","Move a View with Animation"));
 
-        subjects.add(new Subject("CS-309",
+        animations.add(new Animation("CS-309",
                 "Move a View with Fling Animation"));
 
-        subjects.add(new Subject("IT-301","Enlarge a view " +
+        animations.add(new Animation("IT-301","Enlarge a view " +
                 "with Zoom Animation"));
 
-        subjects.add(new Subject("IT-303","Reveal or Hide a " +
+        animations.add(new Animation("IT-303","Reveal or Hide a " +
                 "View with Animation"));
 
-        subjects.add(new Subject("CS-303","Property Animation"));
+        animations.add(new Animation("CS-303","Property Animation"));
 
-        subjects.add(new Subject("IT-304","Auto-Animate layout updates"));
+        animations.add(new Animation("IT-304","Auto-Animate layout updates"));
 
-        subjects.add(new Subject("IT-305","Animate layout changes " +
+        animations.add(new Animation("IT-305","Animate layout changes " +
                 "using a Transition"));
 
-        mAdapter.setData(subjects);
+        mAdapter.setData(animations);
 
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.search_view:
+                Intent searchIntent = new Intent
+                        (MainActivity.this,SearchActivity.class);
+                startActivity(searchIntent);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
 }

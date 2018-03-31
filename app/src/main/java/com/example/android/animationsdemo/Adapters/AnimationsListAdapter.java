@@ -6,19 +6,16 @@ package com.example.android.animationsdemo.Adapters;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.ToggleButton;
 
 import com.example.android.animationsdemo.Objects.CLickListener;
-import com.example.android.animationsdemo.Objects.Subject;
+import com.example.android.animationsdemo.Objects.Animation;
 import com.example.android.animationsdemo.R;
 
 import java.util.ArrayList;
@@ -26,13 +23,13 @@ import java.util.List;
 
 public class AnimationsListAdapter extends RecyclerView.Adapter<AnimationsListAdapter.ViewHolder> {
 
-    private List<Subject> subjects;
+    private List<Animation> animations;
     private Context mContext;
     private CLickListener cLickListener = null;
 
-    public AnimationsListAdapter(Context context, ArrayList<Subject> subjects) {
+    public AnimationsListAdapter(Context context, ArrayList<Animation> animations) {
         mContext = context;
-        this.subjects = subjects;
+        this.animations = animations;
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
@@ -79,9 +76,9 @@ public class AnimationsListAdapter extends RecyclerView.Adapter<AnimationsListAd
 
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
-        Subject currentSubject = subjects.get(position);
-        holder.tvCourseCode.setText(currentSubject.getTvCourseCode());
-        holder.tvCourseName.setText(currentSubject.getTvCourseName());
+        Animation currentAnimation = animations.get(position);
+        holder.tvCourseCode.setText(currentAnimation.getTvCourseCode());
+        holder.tvCourseName.setText(currentAnimation.getTvCourseName());
         //holder.tvCourseName.setTextColor(Color.GRAY);
 
         if(position%2 == 1){
@@ -135,24 +132,24 @@ public class AnimationsListAdapter extends RecyclerView.Adapter<AnimationsListAd
 
     @Override
     public int getItemCount() {
-        return subjects.size();
+        return animations.size();
     }
 
-    public void setData(List<Subject> mSubjects){
-        subjects = mSubjects;
+    public void setData(List<Animation> mAnimations){
+        animations = mAnimations;
         notifyDataSetChanged();
     }
 
     public void removeSubject(int position) {
-        subjects.remove(position);
+        animations.remove(position);
         // notify the item removed by position
         // to perform recycler view delete animations
         // NOTE: don't call notifyDataSetChanged()
         notifyItemRemoved(position);
     }
 
-    public void restoreSubject(Subject item, int position) {
-        subjects.add(position, item);
+    public void restoreSubject(Animation item, int position) {
+        animations.add(position, item);
         // notify item added by position
         notifyItemInserted(position);
     }
