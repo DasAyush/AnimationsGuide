@@ -2,73 +2,37 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="FULL"
+    build-mode="COLD"
     density="xhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1522528609998"
+    timestamp="1522767490759"
     token="-4870449666281602166"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="7201" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="735" />
+        duration="0" />
     <task
         name="verifier"
-        duration="31" />
+        duration="0" />
 
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
     <artifact
         location="/home/ayush/Documents/AnimationsGuide/app/build/outputs/apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1522528609998"
+        timestamp="1522766862787"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -77,16 +41,25 @@
             location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
+            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -94,12 +67,14 @@
         <artifact
             location="/home/ayush/Documents/AnimationsGuide/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1522767490759"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ayush/Documents/AnimationsGuide/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
+            location="/home/ayush/Documents/AnimationsGuide/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
