@@ -44,6 +44,7 @@
         android:id="@+id/view_foreground"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingLeft="10dp"
         android:orientation="horizontal"
         android:weightSum="1"
         android:background="@color/bg_row_foreground"
@@ -53,8 +54,8 @@
                 android:id="@+id/tvCourseCode"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="0.25"
-                android:text="CS-309"
+                android:layout_weight="0.15"
+                android:text="C"
                 android:textColor="@android:color/white"
                 android:textSize="18dp"
                 android:textStyle="bold"
@@ -79,8 +80,8 @@
                 android:layout_gravity="left"
                 android:textSize="16dp"
                 android:textColor="@android:color/black"
-                android:paddingTop="28dp"
-                android:paddingLeft="10dp"
+                android:paddingTop="25dp"
+                android:paddingLeft="20dp"
                 android:layout_marginTop="3dp"
                 android:layout_marginBottom="3dp"
                 android:layout_width="0dp"
@@ -89,7 +90,7 @@
                 android:layout_height="match_parent"
                 android:textStyle="bold"
                 android:text="Something"
-                android:layout_weight="0.75"
+                android:layout_weight="0.85"
                 />
 <!--
             <View

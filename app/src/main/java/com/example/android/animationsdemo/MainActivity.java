@@ -31,6 +31,9 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
+import android.transition.Fade;
+import android.transition.Slide;
+import android.transition.TransitionInflater;
 import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -105,9 +108,6 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
 
         //Search for the animations
         /*final SearchView searchView = (SearchView) findViewById(R.id.search_product);
@@ -354,10 +354,23 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
         animation.setDuration(2000);
         animation.start();
         */
+        if (position == 0)
+            startActivity(new Intent(this, MoveViewAnim.class));
+        else if (position == 1)
+            startActivity(new Intent(this,MoveViewFlingAnim.class));
+        else if (position == 2)
+            startActivity(new Intent(this,MoveViewFlingAnim.class));
+        else if (position == 3)
+            startActivity(new Intent(this,RevealHideViewAnim.class));
+        else if (position == 4)
+            startActivity(new Intent(this,RevealHideViewAnim.class));
+        else if (position == 5)
+            startActivity(new Intent(this,RevealHideViewAnim.class));
+        else if (position == 6)
+            startActivity(new Intent(this,RevealHideViewAnim.class));
 
-        Intent intent = new Intent(this,AnimationDetailsActivity.class);
-        intent.putExtra("Item position",position);
-        String transitionName = getString(R.string.transition);
+        overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
+
 
         /*ActivityOptionsCompat activityOptionsCompat =
                 ActivityOptionsCompat.makeSceneTransitionAnimation(this,
@@ -365,7 +378,6 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
                         transitionName);
         ActivityCompat.startActivity(this,intent,activityOptionsCompat.toBundle());
         */
-        startActivity(intent);
     }
 
     // function to add items in RecyclerView 1
@@ -425,4 +437,8 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
 }

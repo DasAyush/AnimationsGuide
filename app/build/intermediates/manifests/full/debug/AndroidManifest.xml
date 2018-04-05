@@ -103,8 +103,16 @@
             android:parentActivityName="com.example.android.animationsdemo.MainActivity"
             android:theme="@style/Theme.AppCompat" />
         <activity
-            android:name="com.example.android.animationsdemo.AnimationDetailsActivity"
+            android:name="com.example.android.animationsdemo.MoveViewAnim"
             android:label="@string/title_activity_animation_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.android.animationsdemo.MoveViewFlingAnim"
+            android:label="@string/title_activity_move_view_fling_anim"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.android.animationsdemo.RevealHideViewAnim"
+            android:label="@string/title_activity_reveal_hide_view_anim"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data

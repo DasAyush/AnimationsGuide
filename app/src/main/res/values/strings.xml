@@ -235,5 +235,7 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="title_activity_move_view_fling_anim">MoveViewFlingAnim</string>
+    <string name="title_activity_reveal_hide_view_anim">RevealHideViewAnim</string>
 
 </resources>

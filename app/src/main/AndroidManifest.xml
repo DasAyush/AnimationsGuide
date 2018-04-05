@@ -94,10 +94,18 @@
         <activity
             android:name=".TransparentActivity"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.AppCompat"></activity>
+            android:theme="@style/Theme.AppCompat" />
         <activity
-            android:name=".AnimationDetailsActivity"
+            android:name=".MoveViewAnim"
             android:label="@string/title_activity_animation_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MoveViewFlingAnim"
+            android:label="@string/title_activity_move_view_fling_anim"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RevealHideViewAnim"
+            android:label="@string/title_activity_reveal_hide_view_anim"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

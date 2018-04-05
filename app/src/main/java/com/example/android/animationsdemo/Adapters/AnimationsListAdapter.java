@@ -77,7 +77,7 @@ public class AnimationsListAdapter extends RecyclerView.Adapter<AnimationsListAd
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         Animation currentAnimation = animations.get(position);
-        holder.tvCourseCode.setText(currentAnimation.getTvCourseCode());
+        holder.tvCourseCode.setText(currentAnimation.getTvCourseName().charAt(0)+"");
         holder.tvCourseName.setText(currentAnimation.getTvCourseName());
         //holder.tvCourseName.setTextColor(Color.GRAY);
 
@@ -89,45 +89,7 @@ public class AnimationsListAdapter extends RecyclerView.Adapter<AnimationsListAd
             holder.itemView.setBackgroundColor(Color.WHITE);
         }
 
-        /*holder.ibFavourite = (ToggleButton) findViewById(R.id.ibFavourite);
-        holder.ibFavourite.setChecked(false);
-        holder.ibFavourite.setBackgroundDrawable(ContextCompat.getDrawable
-                (mContext, R.mipmap.ic_not_favourite));
-        holder.ibFavourite.setText(null);
-        holder.ibFavourite.setTextOn(null);
-        holder.ibFavourite.setTextOff(null);
-
-        holder.ibFavourite.setOnCheckedChangeListener(
-                new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked)
-                    holder.ibFavourite.setBackgroundDrawable(ContextCompat.getDrawable
-                            (mContext,R.mipmap.ic_favourite));
-                else
-                    holder.ibFavourite.setBackgroundDrawable(ContextCompat.getDrawable
-                            (mContext, R.mipmap.ic_not_favourite));
-            }
-        });
-        */
     }
-
-    /*
-    private void saveState(boolean isFavourite) {
-        SharedPreferences aSharedPreferences = this.getSharedPreferences(
-                "Favourite", Context.MODE_PRIVATE);
-        SharedPreferences.Editor aSharedPreferencesEdit = aSharedPreferences
-                .edit();
-        aSharedPreferencesEdit.putBoolean("State", isFavourite);
-        aSharedPreferencesEdit.commit();
-    }
-
-    private boolean readState() {
-        SharedPreferences aSharedPreferences = this.getSharedPreferences(
-                "Favourite", Context.MODE_PRIVATE);
-        return aSharedPreferences.getBoolean("State", true);
-    }
-    */
 
 
     @Override
