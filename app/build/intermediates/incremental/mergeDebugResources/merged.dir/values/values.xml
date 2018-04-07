@@ -924,6 +924,36 @@
     <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
     <string name="message_empty_layout_changes">Add an item above to get started.</string>
     <string name="message_zoom_touch_expand">Touch a photo to expand it.</string>
+    <string name="moveFlingcdPart1">
+        "FlingAnimation fling = new FlingAnimation(view, DynamicAnimation.SCROLL_X);\n"
+        "fling.setStartVelocity(-velocityX)\n"
+        ".setMinValue(0)\n"
+        ".setMaxValue(maxScroll)\n"
+        ".setFriction(1.1f)\n"
+        ".start();"
+
+    </string>
+    <string name="moveFlingcdPart2">
+        "anim.setMinimumVisibleChange(DynamicAnimation.MIN_VISIBLE_CHANGE_SCALE);\n"
+    </string>
+    <string name="moveFlingtitleTvPart2">
+        Set velocity
+    </string>
+    <string name="moveFlingtitleTvPart3">
+        Set the minimum visible change
+    </string>
+    <string name="moveFlingtvPart1">
+        "Fling-based animation uses a friction force that is proportional to an object's velocity. Use it to animate a property of an object and want to end the animation gradually. It has an initial momentum, which is mostly received from the gesture velocity, and gradually slows down. The animation comes to an end when the velocity of the animation is low enough that it makes no visible change on the device screen."
+    </string>
+    <string name="moveFlingtvPart2">
+        "The starting velocity defines the speed at which an animation property changes at the beginning of the animation. The default starting velocity is set to zero pixels per second. Therefore, you must define a start velocity to ensure the animation does not end right away.\n\n"
+        "You can set the minimum and the maximum animation values when you want to restrain the property value to a certain range. This range control is particularly useful when you animate properties that have an intrinsic range, such as alpha (from 0 to 1).\n\n"
+        "The setFriction() method lets you change the animation's friction. It defines how quickly the velocity decreases in an animation.\n"
+
+    </string>
+    <string name="moveFlingtvPart3">
+        "When you animate a custom property that isn't defined in pixels, you should set the minimal change of animation value that is visible to users. It determines a reasonable threshold for ending the animation."
+    </string>
     <string name="movecdPart1">
         ObjectAnimator animation = ObjectAnimator.ofFloat(view, "translationX", 100f);
         animation.setDuration(2000);

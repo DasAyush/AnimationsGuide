@@ -2201,6 +2201,29 @@
             "path.arcTo(0f, 0f, 1000f, 1000f, 270f, -180f, true);\n"
             "PathInterpolator pathInterpolator = new PathInterpolator(path);\n"
         }
+    </string><string name="moveFlingcdPart1">
+        "FlingAnimation fling = new FlingAnimation(view, DynamicAnimation.SCROLL_X);\n"
+        "fling.setStartVelocity(-velocityX)\n"
+        ".setMinValue(0)\n"
+        ".setMaxValue(maxScroll)\n"
+        ".setFriction(1.1f)\n"
+        ".start();"
+
+    </string><string name="moveFlingcdPart2">
+        "anim.setMinimumVisibleChange(DynamicAnimation.MIN_VISIBLE_CHANGE_SCALE);\n"
+    </string><string name="moveFlingtvPart2">
+        "The starting velocity defines the speed at which an animation property changes at the beginning of the animation. The default starting velocity is set to zero pixels per second. Therefore, you must define a start velocity to ensure the animation does not end right away.\n\n"
+        "You can set the minimum and the maximum animation values when you want to restrain the property value to a certain range. This range control is particularly useful when you animate properties that have an intrinsic range, such as alpha (from 0 to 1).\n\n"
+        "The setFriction() method lets you change the animation's friction. It defines how quickly the velocity decreases in an animation.\n"
+
+    </string><string name="moveFlingtvPart3">
+        "When you animate a custom property that isn't defined in pixels, you should set the minimal change of animation value that is visible to users. It determines a reasonable threshold for ending the animation."
+    </string><string name="moveFlingtvPart1">
+        "Fling-based animation uses a friction force that is proportional to an object's velocity. Use it to animate a property of an object and want to end the animation gradually. It has an initial momentum, which is mostly received from the gesture velocity, and gradually slows down. The animation comes to an end when the velocity of the animation is low enough that it makes no visible change on the device screen."
+    </string><string name="moveFlingtitleTvPart2">
+        Set velocity
+    </string><string name="moveFlingtitleTvPart3">
+        Set the minimum visible change
     </string></file><file path="/home/ayush/Documents/AnimationsGuide/app/src/main/res/values/ids.xml" qualifiers=""><item name="action_next" type="id"/><item name="action_flip" type="id"/></file><file path="/home/ayush/Documents/AnimationsGuide/app/src/main/res/values/colors.xml" qualifiers=""><color name="colorPrimary">#03A9F4</color><color name="colorPrimaryDark">#29B6F6</color><color name="colorPrimary2">#F06292</color><color name="colorPrimaryDark2">#E91E63</color><color name="colorAccent">#546E7A</color><color name="recView2Item">#03A9F4</color><color name="viewDivider">#EF5350</color><color name="rippleBackgroundSubject">#0288D1</color><color name="floatingMenuBg">#546E7A</color><color name="screenSlide">#81D4FA</color><color name="zoomScreen">#81D4FA</color><color name="rippleBackgroundGrid">#B39DDB</color><color name="bg_row_background">#03A9F4</color><color name="bg_row_foreground">@android:color/white</color><color name="main_bg">#FCE4EC</color><color name="text_between_recycler_views">#AD1457</color></file><file path="/home/ayush/Documents/AnimationsGuide/app/src/main/res/values/integers.xml" qualifiers=""><integer name="card_flip_time_full">300</integer><integer name="card_flip_time_half">150</integer><integer name="anim_duration_medium">200</integer><integer name="anim_duration_long">300</integer><integer name="anim_duration_small">100</integer></file><file path="/home/ayush/Documents/AnimationsGuide/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="text_margin">16dp</dimen><dimen name="ic_delete">30dp</dimen><dimen name="app_bar_height">230dp</dimen><dimen name="fab_margin">16dp</dimen></file><file path="/home/ayush/Documents/AnimationsGuide/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary2</item>

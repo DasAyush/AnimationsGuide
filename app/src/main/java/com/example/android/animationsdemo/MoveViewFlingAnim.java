@@ -7,15 +7,37 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MoveViewFlingAnim extends AppCompatActivity {
 
     CollapsingToolbarLayout collapsingToolbarLayout;
+    TextView titleTvPart1, titleTvPart2, titleTvPart3,
+            tvPart1, tvPart2, tvPart3, tvPart4, cdPart1, cdPart2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animation_details);
+
+        titleTvPart1 = (TextView)findViewById(R.id.titleTvPart1);
+        //titleTvPart1.setText(R.string);
+        tvPart1 = (TextView)findViewById(R.id.tvPart1);
+        tvPart1.setText(R.string.moveFlingtvPart1);
+        titleTvPart2 = (TextView)findViewById(R.id.titleTvPart2);
+        titleTvPart2.setText(R.string.moveFlingtitleTvPart2);
+        tvPart2 = (TextView)findViewById(R.id.tvPart2);
+        tvPart2.setText(R.string.moveFlingtvPart2);
+        cdPart1 = (TextView)findViewById(R.id.cdPart1);
+        cdPart1.setText(R.string.moveFlingcdPart1);
+        titleTvPart3 = (TextView)findViewById(R.id.titleTvPart3);
+        titleTvPart3.setText(R.string.moveFlingtitleTvPart3);
+        tvPart3 = (TextView)findViewById(R.id.tvPart3);
+        tvPart3.setText(R.string.moveFlingtvPart3);
+        cdPart2 = (TextView)findViewById(R.id.cdPart2);
+        cdPart2.setText(R.string.moveFlingcdPart2);
+        tvPart4 = (TextView)findViewById(R.id.tvPart4);
 
         //back button in toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.animationsToolbar);
@@ -24,7 +46,7 @@ public class MoveViewFlingAnim extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         collapsingToolbarLayout = (CollapsingToolbarLayout)findViewById(R.id.toolbar_layout);
-        collapsingToolbarLayout.setTitle("Nothing checking");
+        collapsingToolbarLayout.setTitle("Move A View With Fling Animation");
         collapsingToolbarLayout.setCollapsedTitleTextAppearance(R.style.CollapsedAppBar);
         collapsingToolbarLayout.setExpandedTitleTextAppearance(R.style.ExpandedAppBar);
         collapsingToolbarLayout.setExpandedTitleMarginStart(30);

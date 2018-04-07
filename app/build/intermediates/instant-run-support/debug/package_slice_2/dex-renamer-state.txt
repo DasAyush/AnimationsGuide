@@ -1,4 +1,4 @@
-#Sun Apr 08 00:35:26 IST 2018
+#Sun Apr 08 01:30:16 IST 2018
 base.0=/home/ayush/Documents/AnimationsGuide/app/build/intermediates/transforms/dexMerger/debug/5
 path.0=classes.dex
 renamed.0=classes.dex
