@@ -72,7 +72,8 @@
         <activity
             android:name="com.example.android.animationsdemo.ScreenSlideActivity"
             android:label="@string/title_screen_slide"
-            android:parentActivityName="com.example.android.animationsdemo.MainActivity" >
+            android:parentActivityName="com.example.android.animationsdemo.MainActivity"
+            android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

@@ -53,9 +53,7 @@
     <string name="card_back_description"><![CDATA[Lorem ipsum dolor sit]]></string>
     <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
-    <string name="text_move_view_with_animation">
-        Objects on screen will often need to be repositioned. This can occur due to user interaction or some processing done behind the scenes. Instead of immediately updating the objects position, which would cause it to blink from one area to another, you should use an animation to move it from the starting position to its end position.
-    </string>
+
     <string name="scrolling_activity_large_text">
         "Material is the metaphor.\n\n"
 
@@ -237,5 +235,36 @@
     </string>
     <string name="title_activity_move_view_fling_anim">MoveViewFlingAnim</string>
     <string name="title_activity_reveal_hide_view_anim">RevealHideViewAnim</string>
+
+
+    <string name="movetvPart1">
+        Objects on screen will often need to be repositioned. This can occur due to user interaction or some processing done behind the scenes. Instead of immediately updating the objects position, which would cause it to blink from one area to another, you should use an animation to move it from the starting position to its end position.
+    </string>
+    <string name="movetitleTvPart2">
+        Change the view position with ObjectAnimator
+    </string>
+    <string name="movetvPart2">
+        The ObjectAnimator API provides an easy way to change the properties of a view with a specified duration. It contains static methods to create instances of ObjectAnimator depending on what type of attribute you are animating. When repositioning your views on screen you will use the translationX and translationY attributes.
+        Here is an example of an ObjectAnimator that moves the view to 100 pixels from the left of the screen in 2 seconds:
+    </string>
+    <string name="movecdPart1">
+        ObjectAnimator animation = ObjectAnimator.ofFloat(view, "translationX", 100f);
+        animation.setDuration(2000);
+        animation.start();
+    </string>
+    <string name="movetitleTvPart3">
+        Use PathInterpolator
+    </string>
+    <string name="movetvPart3">
+        The PathInterpolator class is a new interpolator introduced in Android 5.0 (API 21). It is based on a Bézier curve or a Path object. This interpolator specifies a motion curve in a 1x1 square, with anchor points at (0,0) and (1,1) and control points as specified using the constructor arguments. One way to create a PathInterpolator is by creating a Path object and supplying it to the PathInterpolator:
+    </string>
+    <string name="movecdPart2">
+        "if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {\n"
+            "Path path = new Path();\n"
+            "path.arcTo(0f, 0f, 1000f, 1000f, 270f, -180f, true);\n"
+            "PathInterpolator pathInterpolator = new PathInterpolator(path);\n"
+        }
+    </string>
+
 
 </resources>

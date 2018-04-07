@@ -369,7 +369,7 @@ public class MainActivity extends AppCompatActivity implements CLickListener,
         else if (position == 6)
             startActivity(new Intent(this,RevealHideViewAnim.class));
 
-        overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
+        overridePendingTransition(R.anim.activity_fade_in, R.anim.activity_fade_out);
 
 
         /*ActivityOptionsCompat activityOptionsCompat =

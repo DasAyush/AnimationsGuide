@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
-        "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
-    },
-    {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
@@ -16,12 +16,12 @@
         "source": "/home/ayush/Documents/AnimationsGuide/app/src/main/res/anim/fab3_show.xml"
     },
     {
-        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
-        "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4388545cb09c5ab1685aad59386e6113/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -44,12 +44,12 @@
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
-        "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/layout/abc_search_view.xml"
-    },
-    {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_del.png.flat",
         "source": "/home/ayush/Documents/AnimationsGuide/app/src/main/res/mipmap-mdpi/ic_del.png"
+    },
+    {
+        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
+        "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_photo.png.flat",
@@ -120,12 +120,12 @@
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
-        "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
+        "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable/abc_ic_search_api_material.xml"
     },
     {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -208,12 +208,12 @@
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-v21_design_password_eye.xml.flat",
         "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c98669d2da8b118e35793c88c183fdc9/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aacb9bfaa58dcaa95d6792255ebc836c/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/home/ayush/Documents/AnimationsGuide/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",

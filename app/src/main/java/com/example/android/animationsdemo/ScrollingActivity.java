@@ -28,7 +28,6 @@ public class ScrollingActivity extends AppCompatActivity {
         Intent intent = new Intent();
         int position = intent.getIntExtra("Item position",-1);
 
-
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
